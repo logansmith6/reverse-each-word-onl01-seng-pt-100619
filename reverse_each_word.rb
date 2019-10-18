@@ -18,6 +18,6 @@ string[word] = reversed_word
 
 
 end
-return string
+return string.join
 
 end
