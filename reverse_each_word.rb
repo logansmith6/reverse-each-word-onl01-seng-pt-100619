@@ -4,7 +4,7 @@ size = string.size
 new_string = []
 string.split(",")
 string.each do |word|
-  new_string << word.reverse 
+  new_string << word.reverse
 end
 new_string
 
