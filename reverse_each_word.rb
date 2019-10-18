@@ -11,11 +11,13 @@ reversed_word[x] = word[y]
 x -= 1
 y += 1
 
+string[word] = reversed_word
+
 
 
 
 
 end
-
+return string
 
 end
