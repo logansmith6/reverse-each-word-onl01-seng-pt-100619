@@ -8,6 +8,6 @@ reverse_word.each do |word|
 word.reverse!
 
 end
-string = reverse_word.join
+reverse_word.join
 
 end
