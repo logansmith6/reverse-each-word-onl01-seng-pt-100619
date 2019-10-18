@@ -7,3 +7,5 @@ string.each do |word|
   size -= 1
 end
 new_string
+
+end
