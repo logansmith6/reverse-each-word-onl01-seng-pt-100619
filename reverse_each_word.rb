@@ -1,12 +1,17 @@
 
 def reverse_each_word(string)
 
-new_string = []
-x = 0
-new_string = string.split(",")
-new_string.each do |word|
-  word = word.reverse
-  return new_string
+reversed_word = []
+string = string.split(",")
+string.each do |word|
+word.split(",")
+x = word.size
+y = 0
+reversed_word[x] = word[y]
+
+end
+end
+
 end
 
 
